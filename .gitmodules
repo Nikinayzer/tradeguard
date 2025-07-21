@@ -1,0 +1,9 @@
+[submodule "tradeguard-server"]
+	path = tradeguard-server
+	url = https://github.com/Nikinayzer/tradeguard-server
+[submodule "tradeguard-health"]
+	path = tradeguard-health
+	url = https://github.com/Nikinayzer/tradeguard-health
+[submodule "tradeguard-mobile"]
+	path = tradeguard-mobile
+	url = https://github.com/Nikinayzer/tradeguard-mobile
