@@ -45,7 +45,7 @@ Trading Engine (TR) is heavily built with the idea of Discord integration, that'
    ```bash
    docker compose up -d
    ```
-   note that this won't launch Trading Engine because it should be launched manually after adding exchange API keys via mmobile app. This inconvenience is due to the nature of TR service, as it requires ID of user to launch. However, in future it can be handled automatically.
+   note that this won't launch Trading Engine because it should be launched manually after adding exchange API keys via mobile app. This inconvenience is due to the nature of TR service, as it requires ID of user to launch. However, in future it can be handled automatically.
 
 ### Mobile App
    1. Create .env.local file for the mobile application:
