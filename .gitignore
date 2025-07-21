@@ -1,0 +1,43 @@
+# General
+.DS_Store
+.idea/
+.vscode/
+*.log
+*.bak
+*.swp
+*~
+.env
+.env.*
+!.env.example
+logs/
+tmp/
+
+# Java / Maven (tradeguard-server)
+/tradeguard-server/target/
+/tradeguard-server/*.jar
+/tradeguard-server/dependency-reduced-pom.xml
+/tradeguard-server/.classpath
+/tradeguard-server/.factorypath
+/tradeguard-server/.project
+/tradeguard-server/.settings/
+/tradeguard-server/.springBeans
+/tradeguard-server/.mvn/wrapper/maven-wrapper.jar
+
+# Python (Risk Engine)
+/tradeguard-health/__pycache__/
+/tradeguard-health/*.py[cod]
+/tradeguard-health/*$py.class
+/tradeguard-health/.pytest_cache/
+/tradeguard-health/.coverage
+/tradeguard-health/htmlcov/
+/tradeguard-health/.tox/
+/tradeguard-health/.nox/
+/tradeguard-health/.hypothesis/
+/tradeguard-health/.venv/
+/tradeguard-health/venv/
+/tradeguard-health/ENV/
+/tradeguard-health/.eggs/
+/tradeguard-health/*.egg-info/
+
+# Docker
+.docker-volumes/
